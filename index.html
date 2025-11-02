@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisyui-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwindcss cdn -->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#f4f5f7] h-[100vh] flex flex-col justify-center items-center">
+    <div class="h-[130px] w-[300px] bg-[url(./assets/bg.png)]
+    bg-cover flex justify-center items-center">
+        <img src="./assets/Group.png" alt="">
+    </div>
+    <form class="w-[350px] bg-white rounded-2xl p-8 ">
+        <div>
+            <label class="font-semibold" for="">Mobile</label>
+            <br>
+            <input type="text" placeholder="Enter your Number" id="mobile" class="input input-info bg-[#f4f5f7]
+            mt-3 rounded-3xl" />
+        </div>
+        <div class="mt-5">
+            <label class="font-semibold" for="">Password</label>
+            <br>
+            <input type="text" placeholder="Enter your Password" id="password" class="input input-info bg-[#f4f5f7]
+            mt-3 rounded-3xl" />
+        </div>
+
+        <button class="btn btn-dash btn-primary mt-5 w-full rounded-3xl"
+        id="loginBtn">Login</button>
+    </form>
+
+
+    <!-- js scripts-->
+     <script src="./script.js"></script>
+</body>
+</html>
